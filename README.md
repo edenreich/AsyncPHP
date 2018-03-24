@@ -1,4 +1,4 @@
-<p align="center"><img src="https://s7.postimg.org/dq0odxamj/php.png" width="300" height="350"></p>
+<p align="center"><img src="https://s7.postimg.org/dq0odxamj/php.png" width="300" height="300"></p>
 
 # AsyncPHP
 
