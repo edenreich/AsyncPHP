@@ -1,0 +1,34 @@
+{
+    "name": "asyncphp/threads",
+    "description": "Simple way to make async operations using PHP",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["threads","thread","async"],
+    "authors": [
+        {
+            "name": "Eden Reich",
+            "email": "eden.reich@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "symfony/var-dumper": "^3.4"
+    },
+    "autoload": {
+	    "psr-4": {
+	    	"AsyncPHP\\": "src/"
+	    }
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/"
+		}
+	},
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}
