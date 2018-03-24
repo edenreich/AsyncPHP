@@ -8,7 +8,7 @@ A simple way to make async operations using PHP
 
 in the terminal:
 ```sh
-composer require eden/async
+composer require reich/async
 ```
 
 # Usage
