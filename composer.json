@@ -1,5 +1,5 @@
 {
-    "name": "asyncphp/threads",
+    "name": "eden/async",
     "description": "Simple way to make async operations using PHP",
     "type": "library",
     "license": "MIT",

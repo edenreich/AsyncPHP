@@ -8,14 +8,14 @@ A simple way to make async operations using PHP
 
 in the terminal:
 ```sh
-composer require asyncphp/threads
+composer require eden/async
 ```
 
 # Usage
 
 To create a new thread:
 ```php
-$thread = new Thread(function);
+$thread = new \AsyncPHP\Thread(function);
 ```
 
 To join the thread to the main context:
@@ -25,7 +25,7 @@ $thread->join();
 
 To get the currently running threads:
 ```php
-echo Thread::$count
+echo \AsyncPHP\Thread::$count
 ```
 
 # Note
