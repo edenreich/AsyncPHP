@@ -57,7 +57,7 @@ class Thread implements Threaded
 
     		usleep(10000);
     	} while (true);
-	}
+    }
 
     /**
      * Starts the new thread.
