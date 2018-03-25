@@ -29,5 +29,4 @@ echo \AsyncPHP\Thread::$count
 ```
 
 # Note
-This small package uses pcnl extension(which is normally installed by default) and does not require pthreads extension to be installed.
-It's probably not as fast as using pthreads, yet it solves the async problem.
+This can only be used from the command line atm.
