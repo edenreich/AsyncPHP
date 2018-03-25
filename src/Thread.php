@@ -47,10 +47,10 @@ class Thread implements Threaded
      */
     public function join()
     {
-    	pcntl_waitpid($this->pid, $status, WUNTRACED);
+    	\pcntl_waitpid($this->pid, $status, WUNTRACED);
 
     	do {
-    		if (pcntl_wifexited($status)) {
+    		if (\pcntl_wifexited($status)) {
     			self::$count--;
     			break;
     		}
@@ -66,7 +66,7 @@ class Thread implements Threaded
      */
     public function start()
     {
-    	$pid = @pcntl_fork();
+    	$pid = @\pcntl_fork();
 
     	if ($pid == -1) {
         		throw new \Exception('Could not create the thread');
